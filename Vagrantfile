@@ -1,6 +1,6 @@
 
 vms = {
-    'Workpress' => {'memory' => '512', 'cpus' => 1, 'ip' => '10', 'provision' => 'Workpress.yaml'}
+    'Workpress' => {'memory' => '2048', 'cpus' => 2, 'ip' => '10', 'provision' => 'Workpress.yaml'}
 }
   
   Vagrant.configure('2') do |config|
